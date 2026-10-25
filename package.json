@@ -16,7 +16,7 @@
     "b2b"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^18.0.9",
