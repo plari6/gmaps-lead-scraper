@@ -1,0 +1,37 @@
+{
+  "name": "gmaps-lead-scraper",
+  "version": "1.0.0",
+  "description": "Stealth Puppeteer scraper that turns Google Maps searches into clean B2B lead lists (CSV/JSON).",
+  "main": "src/scraper.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "scrape": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "google-maps",
+    "scraper",
+    "puppeteer",
+    "lead-generation",
+    "b2b"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "json2csv": "^5.0.7",
+    "puppeteer": "^25.16.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "allowScripts": {
+    "puppeteer@25.16.0": true
+  },
+  "bin": {
+    "gmaps-leads": "src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

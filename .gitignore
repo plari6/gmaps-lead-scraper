@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+
+# Generated lead lists (keep only the sample output)
+data/*
+!data/.gitkeep
+!data/leads.csv
